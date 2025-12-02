@@ -1,19 +1,18 @@
-# React + Vite
+# Quoter – Random Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that fetches a random quote from dummyjson.com and displays it with the author. Users can get a new quote by clicking a button.
 
-Currently, two official plugins are available:
+## Live Demo
+[https://ishtiakahmed-official.github.io/Quoter/](https://ishtiakahmed-official.github.io/Quoter/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Fetches random quotes using `fetch()`
+- Displays quote and author
+- "New Quote" button to fetch a new quote
+- Styled using Tailwind CSS via CDN
 
-## React Compiler
+## How It Works
+The app fetches quotes from:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Quoter" 
+```javascript
+https://dummyjson.com/quotes/random
