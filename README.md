@@ -10,6 +10,10 @@ A simple React app that fetches a random quote from dummyjson.com and displays i
 - Displays quote and author
 - "New Quote" button to fetch a new quote
 - Styled using Tailwind CSS via CDN
+- Color-blind individuals will see clearly.
+
+## Preview
+![Webpage Preview Screenshot](./public/preview.png)
 
 ## How It Works
 The app fetches quotes from:
